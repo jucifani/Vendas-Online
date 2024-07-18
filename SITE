@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas Online Academy (VOA)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #00bfae; /* verde ciano */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #333;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta-button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .highlight {
+            color: #00bfae; /* verde ciano */
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Vendas Online Academy (VOA)</h1>
+        <p>Mentorias ao vivo para vender no digital</p>
+    </header>
+    
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou [Seu Nome], especialista em vendas online e criadora do Vendas Online Academy (VOA). Minha missão é ajudar você a dominar as técnicas de vendas digitais e alcançar seus objetivos no mundo online.</p>
+        </div>
+    </section>
+    
+    <section id="objetivo">
+        <div class="container">
+            <h2>Objetivo do Curso</h2>
+            <p>O <span class="highlight">Vendas Online Academy (VOA)</span> é um curso completo que oferece mentorias ao vivo, projetadas para fornecer as ferramentas e estratégias necessárias para você ter sucesso nas vendas online. Ao longo do curso, você aprenderá a criar campanhas eficazes, otimizar seu funil de vendas e maximizar seus resultados no digital.</p>
+        </div>
+    </section>
+    
+    <section id="compra">
+        <div class="container">
+            <h2>Inscreva-se Agora!</h2>
+            <p>Pronto para transformar suas vendas online? Não perca a oportunidade de se inscrever no <span class="highlight">Vendas Online Academy (VOA)</span> e começar a sua jornada de sucesso no digital!</p>
+            <a href="#compra" class="cta-button">Quero me inscrever!</a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Vendas Online Academy (VOA). Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+
